@@ -32,7 +32,7 @@
 - Minimum Spanning(최소신장트리)
 
 
-####문제해결전략
+#### 문제해결전략
 - Recursive Call(재귀호출)
 - Dynamic Programming(동적계획법)
 	- [대표 예제 1 : 01타일](https://github.com/dev-riley/algorithm/blob/master/algorithm_BOJ/%ED%8C%A8%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%8D%BC%EC%8A%A4/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/9-1.%2001%ED%83%80%EC%9D%BC.py)
