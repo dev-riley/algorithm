@@ -20,8 +20,25 @@
 
 - Binary Search(이진 탐색)
 - Python Binary Search Library
-- DFS
+
+
+#### 그래프
+- DFS(깊이우선탐색)
   - [DFS 예제](https://github.com/dev-riley/algorithm/blob/master/algorithm_%EC%9D%B4%EC%BD%94%ED%85%8C/DFS%2C%20BFS/5-1.%20DFS%20%EC%98%88%EC%A0%9C.py)
-- BFS
+- BFS(너비우선탐색)
   - [BFS 예제](https://github.com/dev-riley/algorithm/blob/master/algorithm_%EC%9D%B4%EC%BD%94%ED%85%8C/DFS%2C%20BFS/5-2.%20BFS%20%EC%98%88%EC%A0%9C.py)
+- Shortest Path(최단경로)
+- Dijikstra(다익스트라)
+- Minimum Spanning(최소신장트리)
+
+
+####문제해결전략
+- Recursive Call(재귀호출)
+- Dynamic Programming(동적계획법)
+	- [대표 예제 1 : 01타일](https://github.com/dev-riley/algorithm/blob/master/algorithm_BOJ/%ED%8C%A8%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%8D%BC%EC%8A%A4/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/9-1.%2001%ED%83%80%EC%9D%BC.py)
+	- [대표 예제 2 : 평범한 배낭](https://github.com/dev-riley/algorithm/blob/master/algorithm_BOJ/%ED%8C%A8%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%8D%BC%EC%8A%A4/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/9-2.%20%ED%8F%89%EB%B2%94%ED%95%9C%20%EB%B0%B0%EB%82%AD(12865).py)
+	- [대표 예제 3 : 가장 긴 증가하는 부분 수열(LIS)](https://github.com/dev-riley/algorithm/blob/master/algorithm_BOJ/%ED%8C%A8%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%8D%BC%EC%8A%A4/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/9-3.%20%EA%B0%80%EC%9E%A5%20%EA%B8%B4%20%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4(11053).py)
+- Divide & Conquer(분할 정복)
+- Greedy(탐욕)
+- Backtracking(백트래킹)
 
