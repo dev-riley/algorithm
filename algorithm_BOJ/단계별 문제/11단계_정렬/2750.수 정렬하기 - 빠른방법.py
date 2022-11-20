@@ -1,5 +1,4 @@
 import sys
-
 n = int(sys.stdin.readline())
 array = []
 for i in range(n):
