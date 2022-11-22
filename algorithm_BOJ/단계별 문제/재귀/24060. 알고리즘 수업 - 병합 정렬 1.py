@@ -33,7 +33,7 @@ arr = list(map(int, input().split()))
 ans = []
 merge_sort(arr)
 
-if len(arr) >= k:
+if len(ans) >= k:
     print(ans[k-1])
 else:
     print(-1)
