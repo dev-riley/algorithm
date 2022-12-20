@@ -13,6 +13,7 @@
 - [Quick Sort(퀵 정렬)](https://github.com/dev-riley/algorithm/blob/master/algorithm_%EC%9D%B4%EC%BD%94%ED%85%8C/%EC%A0%95%EB%A0%AC/%ED%80%B5%20%EC%A0%95%EB%A0%AC%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C.py)
 - [Counting Sort(계수 정렬)](https://github.com/dev-riley/algorithm/blob/master/algorithm_%EC%9D%B4%EC%BD%94%ED%85%8C/%EC%A0%95%EB%A0%AC/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C.py)
 - Python Sort Library(파이썬 정렬 라이브러리)
+- [Topological Sort(위상 정렬)](https://github.com/dev-riley/algorithm/blob/master/Algorithm%20%EC%A0%95%EB%A6%AC/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9C%A0%ED%98%95%20%EC%A0%95%EB%A6%AC/%EC%9C%84%EC%83%81%20%EC%A0%95%EB%A0%AC(Topological%20sort).md)
 
 
 
@@ -41,4 +42,5 @@
 - Divide & Conquer(분할 정복)
 - Greedy(탐욕)
 - Backtracking(백트래킹)
+- [Two Pointers(투 포인터)](https://github.com/dev-riley/algorithm/blob/master/Algorithm%20%EC%A0%95%EB%A6%AC/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9C%A0%ED%98%95%20%EC%A0%95%EB%A6%AC/%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0(Two%20Pointers).md)
 
