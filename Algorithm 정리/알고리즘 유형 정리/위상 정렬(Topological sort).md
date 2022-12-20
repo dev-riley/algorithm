@@ -11,7 +11,7 @@ DAG(Directed Acyclic Graph)그래프여야 함. **방향성이 있고, 사이클
 
 힙 자료구조와 함께 적용하면 쉽게 문제를 풀 수 있음.
 
-![DAG](../image/DAG.png)
+![DAG](../image/dag.png)
 
 #### **위상정렬 알고리즘 순서**
 
