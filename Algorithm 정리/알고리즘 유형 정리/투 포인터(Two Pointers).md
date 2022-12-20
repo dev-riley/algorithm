@@ -22,7 +22,7 @@ n개의 서로 다른 양의 정수 a1, a2, ..., an으로 이루어진 수열이
 
 문제의 조건을 만족하는 쌍의 개수를 출력한다.
 
-![image-20221221000554777](C:\Users\qlrqo\AppData\Roaming\Typora\typora-user-images\image-20221221000554777.png)
+![예제](../image/3273.png)
 
 
 
@@ -82,15 +82,15 @@ print(count)
 
 일단 정렬을 먼저 하고 시작한다. start와 end 두개의 포인터를 리스트의 시작점과 끝점을 가리키게 정의한다.
 
-![image-20221221002215981](C:\Users\qlrqo\AppData\Roaming\Typora\typora-user-images\image-20221221002215981.png)
+![1](../image/3273-1.png)
 
 start 값과 end 값의 합이 13이기 때문에 count는 1이되고 end를 왼쪽으로 한칸 이동해준다.
 
-![image-20221221002444433](C:\Users\qlrqo\AppData\Roaming\Typora\typora-user-images\image-20221221002444433.png)
+![2](../image/3273-2.png)
 
 여기서 start 값과 end 값의 합은12로 13보다 작기 때문에 start를 오른쪽으로 한칸 이동해준다.
 
-![image-20221221002540312](C:\Users\qlrqo\AppData\Roaming\Typora\typora-user-images\image-20221221002540312.png)
+![3](../image/3273-3.png)
 
 이런 방식으로 계속 진행하다보면 언젠가 start와 end값이 만나게 되고 while문을 벗어나 코드가 종료된다.
 
