@@ -1,20 +1,20 @@
 n = int(input())
 k = int(input())
-arr = []
 
-for i in range(1, n + 1):
-    arr.append(i)
-arr.sort()
+start = 1
+end = n * n
+ans = 0
 
-def binarySearch(arr, target, start, end):
-    if start > end:
-        return False
+while start <= end:
     mid = (start + end) // 2
-    if mid > target:
-        return binarySearch(arr, target, start, mid - 1)
-    elif mid < target:
-        return binarySearch(arr, target, mid + 1, end)
+    count = 0
+    for i in range(1, n + 1):
+        # mid // i => 각 i값에서 mid값보다 작거나 같은 값의 갯수를 의미
+        count += min(mid // i, n)
+    if count >= k:
+        ans = mid
+        end = mid - 1
     else:
-        return arr[mid]
+        start = mid + 1
 
-print(binarySearch(arr, k, 0, n * n))
+print(ans)
