@@ -13,7 +13,7 @@ for data in datas:
     else:
         left = 0
         right = len(lis)
-        while left <= right:
+        while left < right:
             mid = (left + right) // 2
             if lis[mid] < data:
                 left = mid + 1
