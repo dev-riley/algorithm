@@ -1,4 +1,6 @@
+import sys
 import heapq
+input = sys.stdin.readline
 n = int(input())
 lst = []
 
@@ -6,7 +8,7 @@ for i in range(n):
     s, t = map(int, input().split())
     lst.append((s, t))
 # 시작 시간을 기준으로 정렬
-lst.sort(key=lambda x:x[0])
+lst.sort()
 
 room = []
 heapq.heappush(room, lst[0][1])
